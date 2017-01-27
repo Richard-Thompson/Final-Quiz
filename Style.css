@@ -1,0 +1,51 @@
+.contentBody {
+    margin: auto;
+    width: 100%;
+    border: 3px solid #333;
+    padding: 10px;
+    text-align:center;
+    margin:auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.Menu li, ul.Footer li p{float: left;}
+
+ul.Menu li a, ul.Footer li p, ul.options li p{
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    width: 100%;    
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.options li:hover {background-color: #555;}
+
+
+.header{
+    text-align: center ;
+    style:"Arial Black", Gadget, sans-serif";
+    color: #f2f2f2; 
+    margin-top:0;
+}
+
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
